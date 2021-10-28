@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-color: #3D0000;
+  font-family: 'Roboto';
+}
+.navbar {
+  background-color: black !important;
+}
+a.navbar-brand {
+  font-family: 'Pacifico';
+}
+a.nav-link:hover {
+  color: #ac0909 !important;
+}
+a.nav-link.active {
+  color: #FF0000 !important;
+}
+
+.jumbotron {
+  background-image: url('../img/jumbotron.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-bottom: 7px solid rgb(102, 102, 102);
+}
+.jumbotron h1, .jumbotron b, h2 {
+  color: white;
+}
+.jumbotron p {
+  color: rgb(150, 150, 150);
+}
+
+.card-movie-title {
+  color: white;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 1em;
+}
+.card-img-top {
+  transition: .3s;
+}
+.card-img-top:hover {
+  cursor: pointer;
+  filter:brightness(30%);
+}
+
+/* media query */
+/* @media screen and (max-width: 512px) {
+  .card-movie-title {
+  }
+} */
